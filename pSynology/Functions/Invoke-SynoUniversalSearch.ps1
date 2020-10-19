@@ -11,7 +11,7 @@ function Invoke-SynoUniversalSearch {
 
 	BEGIN {
 		if (!$Fields) {
-			$Fields = AcquisitionMake AcquisitionModel Album Aperture AudioBitRate AudioTrackNumber Authors Codecs ContentCreationDate ContentModificationDate Creator DurationSecond ExposureTimeString Extension FSCreationDate FSName FSSize ISOSpeed LastUsedDate MediaTypes MusicalGenre OwnerUserID OwnerUserName RecordingYear ResolutionHeightDPI ResolutionWidthDPI Title VideoBitRate IsEncrypted
+			$Fields = echo AcquisitionMake AcquisitionModel Album Aperture AudioBitRate AudioTrackNumber Authors Codecs ContentCreationDate ContentModificationDate Creator DurationSecond ExposureTimeString Extension FSCreationDate FSName FSSize ISOSpeed LastUsedDate MediaTypes MusicalGenre OwnerUserID OwnerUserName RecordingYear ResolutionHeightDPI ResolutionWidthDPI Title VideoBitRate IsEncrypted
 		}
 
 		$Parameters = @{
